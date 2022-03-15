@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --orange: #fe6e2f;
+    --red: #d61d2b;
+    --purple: #4519de;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: var(--purple);
+}
+
+body{
+    background: url("img/sky.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    /*letter-spacing: -1px;*/
+    font-size: 12pt;
+    /*line-height: 1.1em;*/
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 64pt;
+    color: #fff;
+    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 0;
+    text-shadow: 0 0 5px #333;
+}
+
+h2{
+    font-size: 36pt;
+    color: #fff;
+    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 0;
+    text-shadow: 0 0 5px #333;
+}
+
+.btn{
+    box-sizing: border-box;
+    margin: 0 auto 12px;
+    border-radius: 5px;
+    padding: 16px 12px;
+    background: var(--red);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 700;
+    border-width: 0;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 11pt;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-purple{
+    background: var(--purple);
+}
+
+.btn:hover{
+    padding: 16px 12px;
+    background: var(--orange);
+    text-decoration: none;
+    outline: none;
+}
+.btn-purple:hover{
+    padding: 16px 12px;
+    background: var(--orange);
+    text-decoration: none;
+    outline: none;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+    max-width: 480px;
+}
+.selected{
+    background: var(--orange) !important;
+}
+.input{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto 12px;
+    border-radius: 5px;
+    padding: 16px 12px;
+    background: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+    max-width: 480px;
+    outline: none;
+    border-width: 0;
+}
+.rounded{
+    border-radius: 500px;
+    padding: 12px;
+    box-sizing: border-box;
+    width:290px;
+}
