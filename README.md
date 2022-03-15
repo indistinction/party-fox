@@ -14,5 +14,3 @@ This was a solo project; I was the only dev and designer, although the frontend 
 
 ## Status
 Now we are out of lockdown the company is no longer running the parties and the site is offline. I have anonymised some of the assets in the repo.
-
-"deploy-dist": "python3 ~/bunny-upload/bunny.py BUNNY-ZONE BUNNY-API"
